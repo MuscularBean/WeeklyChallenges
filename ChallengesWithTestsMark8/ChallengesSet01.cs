@@ -45,7 +45,7 @@ namespace ChallengesWithTestsMark8
 
         public string GetGreeting(string nameOfPerson)
         {
-        
+            
             string result = ($"Hello, {nameOfPerson}!");
             return result;
 
@@ -53,7 +53,8 @@ namespace ChallengesWithTestsMark8
 
         public string GetHey()
         {
-            throw new NotImplementedException();
+            string result = "HEY!";
+            return result;
         }
     }
 }
